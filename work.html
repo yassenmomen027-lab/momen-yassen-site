@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>الأعمال | مؤمن ياسين</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial;
+    background:linear-gradient(135deg,#0b1020,#111827,#020617);
+    color:white;
+    text-align:center;
+    padding-top:100px;
+}
+
+/* NAV */
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:#0f172a;
+    padding:12px;
+    z-index:999;
+}
+
+nav a{
+    color:white;
+    margin:10px;
+    text-decoration:none;
+    font-size:14px;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+/* TITLE */
+h1{
+    color:#38bdf8;
+    margin-top:20px;
+}
+
+/* GRID */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:20px;
+}
+
+/* CARD */
+.card{
+    background:rgba(255,255,255,0.05);
+    padding:20px;
+    border-radius:12px;
+    border:1px solid rgba(255,255,255,0.1);
+    transition:0.3s;
+    line-height:2;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    border-color:#38bdf8;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <a href="index.html">الرئيسية</a>
+  <a href="work.html">الأعمال</a>
+  <a href="services.html">الخدمات</a>
+  <a href="contact.html">التواصل</a>
+</nav>
+
+<!-- CONTENT -->
+<h1>الأعمال</h1>
+
+<div class="grid">
+
+<div class="card">
+🌐 موقع شركة عقارات<br>
+تصميم احترافي + عرض مشاريع
+</div>
+
+<div class="card">
+🛒 متجر إلكتروني<br>
+منتجات + سلة شراء
+</div>
+
+<div class="card">
+📊 لوحة تحكم<br>
+إدارة بيانات
+</div>
+
+<div class="card">
+🎓 منصة تعليمية<br>
+دروس + اختبارات
+</div>
+
+</div>
+
+</body>
+</html>
